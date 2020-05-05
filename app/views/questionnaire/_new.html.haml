@@ -1,0 +1,9 @@
+= form_for @questionnaire, url: {action: :create}, :html => { :multipart => true, :method => :post} do |f|
+  = f.file_field :yaml_file, accept: '.yaml, .yml'
+  = f.submit "Submit"
+
+  - flash.each do |type, msg|
+    - unless msg.blank?
+      %h3= msg
+
+

@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: noveo_test
+  pool: 10
+  username: developer
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: noveo_test_spec
+  pool: 10
+  username: developer
+  host: localhost

@@ -1,0 +1,39 @@
+---
+type: "//rec"
+required:
+  reference: "//str"
+  type: "//str"
+  content:
+    type: "//arr"
+    contents:
+      type: "//rec"
+      required:
+        reference: "//str"
+        type: "//str"
+        label: "//str"
+        content:
+          type: "//arr"
+          contents:
+            type: "//rec"
+            required:
+              reference: "//str"
+              type: "//str"
+              label: "//str"
+            optional:
+              content:
+                type: "//arr"
+                contents:
+                  type: "//rec"
+                  required:
+                    label: "//str"
+                    value: "//str"
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+- if @questionnaire.present?
+  -if @yaml.present?
+    %h3= @yaml.as_json
+- else
+  %h3= "Not found!"
